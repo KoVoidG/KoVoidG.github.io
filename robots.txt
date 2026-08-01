@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://siraphop-s.github.io/sitemap.xml
+Sitemap: https://kovoidg.github.io/sitemap.xml
