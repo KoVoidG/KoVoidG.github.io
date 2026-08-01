@@ -1,0 +1,20 @@
+{
+  "statusBadge": "Available for new opportunities",
+  "eyebrow": "SOFTWARE ENGINEERING STUDENT • AI & FULL-STACK DEVELOPER",
+  "greeting": "Hi, I'm",
+  "name": "Hein Pyae Sone Htet",
+  "aka": "aka <strong>Void</strong>",
+  "positioning": "I build AI-powered products and full-stack applications that turn ideas into useful software.",
+  "actions": [
+    {
+      "label": "View projects →",
+      "href": "#featured-projects",
+      "variant": "primary"
+    },
+    {
+      "label": "Get in touch →",
+      "href": "#contact",
+      "variant": "secondary"
+    }
+  ]
+}

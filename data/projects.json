@@ -1,0 +1,142 @@
+{
+  "featured": [
+    {
+      "id": "smart-study-assistant",
+      "title": "Smart Study Assistant",
+      "tagline": "AI-powered study platform that transforms notes into summaries, quizzes, and interactive learning experiences.",
+      "summary": "AI-powered study platform that transforms notes into summaries, quizzes, and interactive learning experiences. Built with Next.js, Supabase, and Gemini AI to enable automated note summarization, active recall flashcards, role-based access control, and persistent study history tracking.",
+      "role": "Solo — full-stack implementation",
+      "year": 2025,
+      "status": "shipped",
+      "tech": ["Next.js", "Supabase", "Gemini AI"],
+      "highlights": [
+        "Automated note summarisation and quiz generation",
+        "Role-based access control and persistent study history"
+      ],
+      "links": {
+        "repo": "https://github.com/KoVoidG/smart-study-assistant",
+        "demo": "https://smart-study-assistant-taupe.vercel.app/"
+      },
+      "image": {
+        "src": "assets/img/smart-study-assistant.png",
+        "alt": "Smart Study Assistant interface mockup",
+        "width": 600,
+        "height": 380
+      }
+    },
+    {
+      "id": "tabbyfund",
+      "title": "TabbyFund",
+      "tagline": "Full-stack platform that streamlines stray cat rescue through role-based workflows connecting communities, veterinarians, and adopters.",
+      "summary": "Full-stack platform that streamlines stray cat rescue through role-based workflows connecting communities, veterinarians, and adopters. Features multi-role access control for rescuers, vets, and adopters, real-time request tracking, adoption status management, and persistent database storage.",
+      "role": "Solo — full-stack developer",
+      "year": 2025,
+      "status": "shipped",
+      "tech": ["Next.js", "TypeScript", "Supabase"],
+      "highlights": [
+        "Multi-role user workflows for rescuers, vets, and adopters",
+        "Real-time adoption request tracking and status updates"
+      ],
+      "links": {
+        "repo": "https://github.com/KoVoidG/tabbyfund",
+        "demo": "https://tabbyfund.vercel.app/"
+      },
+      "image": {
+        "src": "assets/img/tabbyfund.png",
+        "alt": "TabbyFund dashboard mockup",
+        "width": 600,
+        "height": 380
+      }
+    },
+    {
+      "id": "smart-notes",
+      "title": "Smart Notes",
+      "tagline": "Modern desktop note-taking application featuring real-time search, categories, and automatic local data persistence.",
+      "summary": "Modern desktop note-taking application featuring real-time search, categories, and automatic local data persistence. Built using Java, JavaFX, and Gson to provide high-performance local text search, categorical organization, customized markdown rendering, and automated file-system persistence.",
+      "role": "Solo — desktop app developer",
+      "year": 2024,
+      "status": "shipped",
+      "tech": ["Java", "JavaFX", "Gson"],
+      "highlights": [
+        "Instant local full-text search across all notes",
+        "Category management with automated JSON persistence"
+      ],
+      "links": {
+        "repo": "https://github.com/KoVoidG/note-taking-app",
+        "demo": ""
+      },
+      "image": {
+        "src": "assets/img/smart-notes.png",
+        "alt": "Smart Notes desktop app interface mockup",
+        "width": 600,
+        "height": 380
+      }
+    },
+    {
+      "id": "stock-portfolio-manager",
+      "title": "Stock Portfolio Manager",
+      "tagline": "Java-based portfolio management system demonstrating object-oriented design and full-stack CRUD operations.",
+      "summary": "Java-based portfolio management system demonstrating object-oriented design and full-stack CRUD operations. Features an object-oriented portfolio calculation engine, real-time transaction logging, asset distribution tracking, and clean browser dashboard UI powered by Spark framework.",
+      "role": "Solo — lead developer",
+      "year": 2024,
+      "status": "shipped",
+      "tech": ["Java", "Spark", "HTML/CSS"],
+      "highlights": [
+        "Object-oriented portfolio calculation engine",
+        "Full CRUD transaction logging and performance tracking"
+      ],
+      "links": {
+        "repo": "https://github.com/KoVoidG/Stock-Portfolio-Manager",
+        "demo": "https://kygfolio.onrender.com/"
+      },
+      "image": {
+        "src": "assets/img/stock-portfolio-manager.png",
+        "alt": "Stock Portfolio Manager financial dashboard mockup",
+        "width": 600,
+        "height": 380
+      }
+    }
+  ],
+  "other": [
+    {
+      "id": "wallflower",
+      "title": "Wallflower",
+      "tagline": "Interactive project.",
+      "year": 2025,
+      "tech": ["TypeScript", "React"],
+      "links": {
+        "repo": "https://github.com/KoVoidG/wallflower"
+      }
+    },
+    {
+      "id": "java-mushu-game",
+      "title": "Java Mushu Game",
+      "tagline": "Interactive 2D game built using Java.",
+      "year": 2024,
+      "tech": ["Java", "OOP"],
+      "links": {
+        "repo": "https://github.com/KoVoidG/java-mushu-game"
+      }
+    },
+    {
+      "id": "rock-paper-scissors",
+      "title": "Rock Paper Scissors",
+      "tagline": "Classic game implementation with GUI.",
+      "year": 2024,
+      "tech": ["Java"],
+      "links": {
+        "repo": "https://github.com/KoVoidG/rock-paper-scissors"
+      }
+    },
+    {
+      "id": "more-repositories",
+      "title": "More...",
+      "tagline": "Browse all public repositories on GitHub.",
+      "year": 2025,
+      "tech": ["GitHub"],
+      "links": {
+        "repo": "https://github.com/KoVoidG"
+      }
+    }
+  ]
+}

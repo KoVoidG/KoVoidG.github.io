@@ -1,0 +1,65 @@
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+/* Hallmark · macrostructure: Workbench-Bento · genre: editorial · theme: Studied-DNA (Reference) */
+
+@layer tokens, base, layout, components, utilities;
+
+@layer tokens {
+  :root {
+    /* colour — preserved palette */
+    --color-primary: #131210;
+    --color-secondary: #716E68;
+    --color-tertiary: #E6552F;
+    --color-tertiary-hover: #c9441f;
+    --color-neutral: #F3F0EA;
+    --color-surface: #ffffff;
+    --color-on-primary: #ffffff;
+    --color-text-muted: #5F5C57;
+    --color-accent-text: #C0431C;
+
+    /* type — preserved font stack */
+    --font-display: "Fraunces", Georgia, serif;
+    --font-body: "Inter", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+    --text-display: clamp(2.75rem, 6.5vw, 4.75rem);
+    --text-h1: clamp(2rem, 4.5vw, 2.75rem);
+    --text-h2: clamp(1.5rem, 3vw, 2.125rem);
+    --text-h3: 1.25rem;
+    --text-body: 1rem;
+    --text-label: 0.75rem;
+
+    --leading-tight: 1.1;
+    --leading-body: 1.65;
+    --tracking-display: -0.03em;
+    --tracking-label: 0.08em;
+
+    /* space */
+    --space-2xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 32px;
+    --space-xl: 64px;
+    --space-2xl: 96px;
+    --space-section: clamp(var(--space-xl), 7vw, 130px);
+
+    /* radius */
+    --radius-sm: 2px;
+    --radius-md: 6px;
+    --radius-lg: 12px;
+    --radius-pill: 9999px;
+
+    /* motion */
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --duration-fast: 150ms;
+    --duration-base: 250ms;
+    --duration-slow: 400ms;
+
+    /* layout — expanded to 1400px full desktop container */
+    --measure: 68ch;
+    --container: 1400px;
+  }
+}
+
+

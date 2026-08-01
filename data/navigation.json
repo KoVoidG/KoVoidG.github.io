@@ -1,0 +1,15 @@
+{
+  "brand": "Void",
+  "links": [
+    { "label": "ABOUT", "href": "#about" },
+    { "label": "EDUCATION", "href": "#education" },
+    { "label": "STACK", "href": "#tech-stack" },
+    { "label": "PROJECTS", "href": "#featured-projects" },
+    { "label": "CONTACT", "href": "#contact" }
+  ],
+  "resume": {
+    "label": "Resume",
+    "href": "assets/Void-Resume.pdf",
+    "download": "Void-Resume.pdf"
+  }
+}

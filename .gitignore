@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# IDE & Editor settings
+.vscode/
+
+# Agent & Kiro workspace directories
+.agents/
+.kiro/
+
+# Build & output directories
+out/
+graphify-out/
+
+# Tests
+tests/

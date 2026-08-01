@@ -1,0 +1,89 @@
+{
+  "name": "Hein Pyae Sone Htet",
+  "displayName": "Void",
+  "role": "SOFTWARE ENGINEERING STUDENT • AI & FULL-STACK DEVELOPER",
+  "heroLine": "I build AI-powered products and full-stack applications that turn ideas into useful software.",
+  "about": [
+    "I'm a Software Engineering student passionate about building products that combine thoughtful design with practical technology.",
+    "Most of my learning happens through building real projects; from AI assistants and financial tools to full-stack web applications.",
+    "I enjoy understanding how things work under the hood, whether that's designing clean frontend experience, building backend APIs, or exploring how AI can improve everyday software."
+  ],
+  "whatIBuild": [
+    { "icon": "sparkles", "text": "AI-powered Applications" },
+    { "icon": "code", "text": "Full-Stack Web Development" },
+    { "icon": "database", "text": "Backend APIs & Databases" },
+    { "icon": "wrench", "text": "Developer Tools" },
+    { "icon": "bolt", "text": "Automation Workflows" }
+  ],
+  "outsideOfCoding": [
+    { "icon": "football", "text": "Football" },
+    { "icon": "trophy", "text": "Hackathons" },
+    { "icon": "bot", "text": "AI & Emerging Tech" },
+    { "icon": "gamepad", "text": "Gaming" },
+    { "icon": "book", "text": "Continuous Learning" }
+  ],
+  "profileCard": {
+    "avatar": "assets/img/avatar.png",
+    "name": "Void",
+    "tagline": "Building useful things.",
+    "currently": [
+      { "icon": "pin", "text": "Thailand" },
+      { "icon": "gradCap", "text": "Software Engineering Student" },
+      { "icon": "briefcase", "text": "Seeking Internship Opportunities" }
+    ],
+    "languages": ["English", "Burmese", "Chinese", "German"],
+    "interests": [
+      { "icon": "lightbulb", "text": "AI" },
+      { "icon": "code", "text": "Full-Stack Dev" },
+      { "icon": "laptopCode", "text": "Open Source" },
+      { "icon": "football", "text": "Football" },
+      { "icon": "trophy", "text": "Hackathons" },
+      { "icon": "gamepad", "text": "Gaming" }
+    ],
+    "quote": "Curious by nature. Builder by choice. Always learning, always shipping."
+  },
+  "education": [
+    {
+      "program": "Dual Degree Program",
+      "degree": "B.Sc. Computer and Data Science x B.C.S Software Engineering",
+      "institutions": "Siam University, Thailand x La Trobe University, Australia",
+      "startYear": 2024,
+      "endYear": "PRESENT",
+      "awards": [
+        "Academic Excellence Award",
+        "4.00 Scholar Certificate of Recognition",
+        "CGPA: 3.88 / 4.00"
+      ],
+      "leadership": {
+        "role": "Student Representative",
+        "highlights": [
+          "Represented students between faculty and classmates.",
+          "Helped organize academic and student activities."
+        ]
+      },
+      "sportsAchievements": [
+        "2x Bronze Medalist – Table Tennis"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "heinpyaesonehtet1234@gmail.com",
+    "location": "Bangkok, Thailand"
+  },
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/KoVoidG"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hein-pyae-sone-htet-620654300"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/siraphop_s"
+    }
+  ],
+  "resumePath": "assets/Void-Resume.pdf",
+  "githubUrl": "https://github.com/KoVoidG"
+}

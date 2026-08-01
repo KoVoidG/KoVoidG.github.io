@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "fast-check": "^3.15.0",
+    "jsdom": "^24.0.0",
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

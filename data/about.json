@@ -1,0 +1,50 @@
+{
+  "eyebrowNum": "01",
+  "eyebrowLabel": "ABOUT",
+  "title": "About",
+  "prose": [
+    "I'm a Software Engineering student passionate about building products that combine thoughtful design with practical technology.",
+    "Most of my learning happens through building real projects; from AI assistants and financial tools to full-stack web applications.",
+    "I enjoy understanding how things work under the hood, whether that's designing clean frontend experience, building backend APIs, or exploring how AI can improve everyday software."
+  ],
+  "whatIBuild": {
+    "title": "What I Build",
+    "items": [
+      { "icon": "sparkles", "iconClass": "fa-solid fa-wand-magic-sparkles", "text": "AI-powered Applications" },
+      { "icon": "code", "iconClass": "fa-solid fa-code", "text": "Full-Stack Web Development" },
+      { "icon": "database", "iconClass": "fa-solid fa-database", "text": "Backend APIs & Databases" },
+      { "icon": "wrench", "iconClass": "fa-solid fa-wrench", "text": "Developer Tools" },
+      { "icon": "bolt", "iconClass": "fa-solid fa-bolt", "text": "Automation Workflows" }
+    ]
+  },
+  "outsideOfCoding": {
+    "title": "Outside of Coding",
+    "items": [
+      { "icon": "football", "iconClass": "fa-solid fa-football", "text": "Football" },
+      { "icon": "trophy", "iconClass": "fa-solid fa-trophy", "text": "Hackathons" },
+      { "icon": "robot", "iconClass": "fa-solid fa-robot", "text": "AI & Emerging Tech" },
+      { "icon": "gamepad", "iconClass": "fa-solid fa-gamepad", "text": "Gaming" },
+      { "icon": "book", "iconClass": "fa-solid fa-book-open", "text": "Continuous Learning" }
+    ]
+  },
+  "profileCard": {
+    "avatar": "assets/img/avatar.png",
+    "name": "Void",
+    "tagline": "Building useful things.",
+    "currently": [
+      { "iconClass": "fa-solid fa-location-dot", "text": "Thailand" },
+      { "iconClass": "fa-solid fa-graduation-cap", "text": "Software Engineering Student" },
+      { "iconClass": "fa-solid fa-briefcase", "text": "Seeking Internship Opportunities" }
+    ],
+    "languages": ["English", "Burmese", "Chinese", "German"],
+    "interests": [
+      { "iconClass": "fa-solid fa-lightbulb", "text": "AI" },
+      { "iconClass": "fa-solid fa-code", "text": "Full-Stack Dev" },
+      { "iconClass": "fa-solid fa-laptop-code", "text": "Open Source" },
+      { "iconClass": "fa-solid fa-football", "text": "Football" },
+      { "iconClass": "fa-solid fa-trophy", "text": "Hackathons" },
+      { "iconClass": "fa-solid fa-gamepad", "text": "Gaming" }
+    ],
+    "quote": "Curious by nature. Builder by choice. Always learning, always shipping."
+  }
+}

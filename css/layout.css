@@ -1,0 +1,285 @@
+@layer layout {
+  /* ─── Scroll behaviour ─── */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-block-start: 90px;
+  }
+
+  /* ─── Container ─── */
+  .container {
+    width: min(100% - 2 * var(--space-lg), var(--container));
+    margin-inline: auto;
+  }
+
+  /* ─── N5 Floating pill site header with glassmorphism & progress bar ─── */
+  .site-header {
+    position: sticky;
+    inset-block-start: var(--space-md);
+    z-index: 100;
+    width: min(100% - 2 * var(--space-md), var(--container));
+    margin-inline: auto;
+    pointer-events: none;
+    animation: header-slide-down 0.6s var(--ease-out) forwards;
+  }
+
+  .site-nav {
+    position: relative;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-lg);
+    padding: 12px 36px;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--color-secondary);
+    border-radius: var(--radius-pill);
+    box-shadow: 0 4px 24px rgba(19, 18, 16, 0.08);
+    min-height: 60px;
+    overflow: hidden;
+  }
+
+  .site-header__progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background-color: var(--color-tertiary);
+    transition: width 100ms linear;
+  }
+
+  .site-nav__brand {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    white-space: nowrap;
+    letter-spacing: -0.02em;
+  }
+
+  .site-nav__list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .site-nav__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav__list > li {
+    flex-shrink: 0;
+  }
+
+  .site-nav__link {
+    font-family: var(--font-mono);
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 4px 8px;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  .site-nav__link:hover {
+    color: var(--color-tertiary);
+  }
+
+  .site-nav__cta {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 8px 22px;
+    font-size: 0.95rem;
+  }
+
+  /* ─── Section rhythm ─── */
+  .section {
+    margin-block-start: clamp(4rem, 10vh, 7rem);
+    padding-block-start: clamp(4rem, 10vh, 7rem);
+    padding-block-end: clamp(5rem, 12vh, 8rem);
+    width: min(100% - 2 * var(--space-lg), var(--container));
+    margin-inline: auto;
+    border-top: 1px solid rgba(113, 110, 104, 0.2);
+    min-height: 85vh;
+    scroll-margin-top: 4rem;
+  }
+
+  .section:first-of-type {
+    margin-block-start: 0;
+    padding-block-start: clamp(3rem, 7vh, 5rem);
+  }
+
+  .section__head {
+    margin-block-end: var(--space-xl);
+    display: grid;
+    gap: var(--space-2xs);
+  }
+
+  .section__eyebrow {
+    font-family: var(--font-mono);
+    font-size: var(--text-label);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2xs);
+  }
+
+  .section__num {
+    color: var(--color-tertiary);
+    font-weight: 700;
+  }
+
+  .section__title {
+    font-family: var(--font-display);
+    font-size: var(--text-h1);
+    color: var(--color-primary);
+    letter-spacing: var(--tracking-display);
+  }
+
+  /* ─── Hero — Single Column Clean Reference Layout ─── */
+  .hero {
+    width: min(100% - 2 * var(--space-lg), var(--container));
+    margin-inline: auto;
+    min-height: calc(88vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-block: clamp(4rem, 10vh, 7rem);
+  }
+
+  .hero__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    max-width: 900px;
+  }
+
+  .hero__subtitle {
+    font-family: var(--font-mono);
+    font-size: clamp(0.7rem, 1.2vw, 0.8rem);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-block-start: var(--space-xs);
+  }
+
+  .hero__heading {
+    font-family: var(--font-display);
+    line-height: 1.05;
+    letter-spacing: var(--tracking-display);
+    color: var(--color-primary);
+    margin-block: var(--space-xs);
+  }
+
+  .hero__greeting {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    color: var(--color-tertiary);
+    font-weight: 700;
+  }
+
+  .hero__name {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 7vw, 5.25rem);
+    font-weight: 800;
+    color: var(--color-primary);
+    display: block;
+    margin-block: 4px;
+  }
+
+  .hero__aka {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 3.25rem);
+    font-weight: 400;
+    color: var(--color-primary);
+  }
+
+  .hero__aka strong {
+    font-weight: 800;
+  }
+
+  .hero__description {
+    font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+    line-height: 1.6;
+    color: var(--color-text-muted);
+    max-inline-size: 50ch;
+    margin-block-end: var(--space-sm);
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-md);
+    margin-block-start: var(--space-xs);
+  }
+
+  /* ─── About Section Layout ─── */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+    align-items: start;
+  }
+
+  /* ─── Stack Section Layout ─── */
+  .stack-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+    align-items: start;
+  }
+
+  .stack-left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    min-width: 0;
+  }
+
+  /* ─── Breakpoints ─── */
+
+  @media (min-width: 58em) {
+    .site-footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  @media (min-width: 62em) {
+    .about-grid {
+      grid-template-columns: max-content 360px;
+      gap: 12rem;
+    }
+
+    .stack-layout {
+      grid-template-columns: minmax(0, 1fr) 370px;
+      gap: clamp(1.5rem, 2.5vw, 2.5rem);
+      align-items: start;
+    }
+  }
+
+  @media (min-width: 75em) {
+    .project-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+

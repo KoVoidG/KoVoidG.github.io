@@ -1,0 +1,42 @@
+{
+  "eyebrowNum": "04",
+  "eyebrowLabel": "PROJECTS",
+  "title": "Selected Work",
+  "subtitle": "Building software that solves real-world problems through AI, full-stack engineering, desktop applications, and thoughtful system design.",
+  "githubButton": {
+    "text": "View GitHub",
+    "url": "https://github.com/KoVoidG"
+  },
+  "stats": [
+    { "num": "12+", "label": "Projects Built" },
+    { "num": "2", "label": "Collaborative Projects" },
+    { "num": "4", "label": "Development Domains" },
+    { "num": "30+", "label": "Tools & Technologies" }
+  ],
+  "archive": [
+    {
+      "id": "wallflower",
+      "name": "Wallflower",
+      "url": "https://github.com/KoVoidG/wallflower",
+      "linkText": "GitHub ↗"
+    },
+    {
+      "id": "java-mushu-game",
+      "name": "Java Mushu Game",
+      "url": "https://github.com/KoVoidG/java-mushu-game",
+      "linkText": "GitHub ↗"
+    },
+    {
+      "id": "rock-paper-scissors",
+      "name": "Rock Paper Scissors",
+      "url": "https://github.com/KoVoidG/rock-paper-scissors",
+      "linkText": "GitHub ↗"
+    },
+    {
+      "id": "more-repositories",
+      "name": "More...",
+      "url": "https://github.com/KoVoidG",
+      "linkText": "GitHub ↗"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "frontend": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Radix UI", "shadcn/ui"],
+  "backend": ["Node.js", "Express.js", "Spring Boot", "FastAPI", "REST APIs"],
+  "databases": ["PostgreSQL", "Supabase", "MySQL", "SQLite"],
+  "ai & data science": ["Python", "Pandas", "NumPy", "scikit-learn", "Matplotlib", "Seaborn", "Plotly", "Streamlit", "Jupyter"],
+  "tools & devops": ["Git", "GitHub", "Docker", "VS Code", "npm", "Postman", "Figma"],
+  "deployment": ["Vercel", "Render", "GitHub Pages"],
+  "programming languages": ["Java", "Python", "TypeScript", "JavaScript", "SQL"],
+  "currently learning": ["Prisma", "LangGraph", "System Design", "Advanced AI Agents"]
+}

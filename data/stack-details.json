@@ -1,0 +1,566 @@
+{
+  "HTML": {
+    "displayName": "HTML5",
+    "category": "MARKUP LANGUAGE",
+    "icon": "html5",
+    "description": "The standard markup language used to structure content on the web. I write clean, semantic, and accessible HTML for every project.",
+    "useCases": [
+      "Structuring web pages with semantic and accessible elements",
+      "Building SEO-friendly and maintainable layouts",
+      "Integrating with CSS and JavaScript for modern web experiences"
+    ],
+    "proficiency": 5
+  },
+  "CSS": {
+    "displayName": "CSS3",
+    "category": "STYLESHEET",
+    "icon": "css3",
+    "description": "Modern styling language for layout, typography, animations, and responsive web application design.",
+    "useCases": [
+      "Creating modern responsive layouts with Grid and Flexbox",
+      "Designing theme systems using CSS custom properties",
+      "Implementing smooth micro-interactions and keyframe animations"
+    ],
+    "proficiency": 5
+  },
+  "JavaScript": {
+    "displayName": "JavaScript",
+    "category": "PROGRAMMING LANGUAGE",
+    "icon": "javascript",
+    "description": "The core language of modern web development, used across client and server environments.",
+    "useCases": [
+      "Building interactive UI components and dynamic state",
+      "Asynchronous data fetching and API integrations",
+      "DOM manipulation and event-driven application logic"
+    ],
+    "proficiency": 5
+  },
+  "TypeScript": {
+    "displayName": "TypeScript",
+    "category": "TYPED LANGUAGE",
+    "icon": "typescript",
+    "description": "Strongly typed programming language built on JavaScript that scales smoothly for full-stack apps.",
+    "useCases": [
+      "Enforcing compile-time type safety across API boundaries",
+      "Building resilient data contracts and reusable components",
+      "Refactoring complex web codebases with confidence"
+    ],
+    "proficiency": 4
+  },
+  "React": {
+    "displayName": "React",
+    "category": "FRONTEND LIBRARY",
+    "icon": "react",
+    "description": "Popular component-based UI library for creating responsive, highly reactive web user interfaces.",
+    "useCases": [
+      "Designing declarative, component-driven user interfaces",
+      "Managing complex client-side state and side effects",
+      "Building SPA web apps with optimized virtual DOM rendering"
+    ],
+    "proficiency": 5
+  },
+  "Next.js": {
+    "displayName": "Next.js",
+    "category": "REACT FRAMEWORK",
+    "icon": "nextjs",
+    "description": "Full-stack React framework enabling server-side rendering, static site generation, and fast routing.",
+    "useCases": [
+      "Building SEO-optimized full-stack web applications",
+      "Implementing server actions and API route handlers",
+      "Leveraging image and font optimizations out of the box"
+    ],
+    "proficiency": 4
+  },
+  "Tailwind CSS": {
+    "displayName": "Tailwind CSS",
+    "category": "CSS FRAMEWORK",
+    "icon": "tailwindcss",
+    "description": "Utility-first CSS framework for rapidly building custom user interfaces with responsive utilities.",
+    "useCases": [
+      "Styling components quickly with utility classes",
+      "Creating dark mode themes and responsive layouts",
+      "Configuring consistent design tokens via tailwind.config"
+    ],
+    "proficiency": 5
+  },
+  "Radix UI": {
+    "displayName": "Radix UI",
+    "category": "UI PRIMITIVES",
+    "icon": "radixui",
+    "description": "Unstyled, accessible component primitives for building high-quality design systems and web apps.",
+    "useCases": [
+      "Building fully accessible modal dialogs and dropdown menus",
+      "Managing complex ARIA attributes and focus management",
+      "Customizing headless UI components with custom CSS"
+    ],
+    "proficiency": 4
+  },
+  "shadcn/ui": {
+    "displayName": "shadcn/ui",
+    "category": "COMPONENT LIBRARY",
+    "icon": "shadcnui",
+    "description": "Re-usable components built with Radix UI and Tailwind CSS that you can copy and paste into your apps.",
+    "useCases": [
+      "Accelerating UI design with production-ready accessible components",
+      "Customizing component source code directly in the workspace",
+      "Maintaining consistent design aesthetics across web apps"
+    ],
+    "proficiency": 5
+  },
+  "Node.js": {
+    "displayName": "Node.js",
+    "category": "BACKEND RUNTIME",
+    "icon": "nodejs",
+    "description": "Event-driven asynchronous JavaScript runtime for scalable server side APIs and tooling.",
+    "useCases": [
+      "Building RESTful backend microservices and endpoints",
+      "Handling asynchronous I/O and real-time streaming",
+      "Executing serverless scripts and developer CLI utilities"
+    ],
+    "proficiency": 5
+  },
+  "Express.js": {
+    "displayName": "Express.js",
+    "category": "BACKEND FRAMEWORK",
+    "icon": "expressjs",
+    "description": "Minimalist and flexible Node.js web application framework providing a robust set of HTTP features.",
+    "useCases": [
+      "Structuring API middleware and routing layers",
+      "Handling authentication tokens and session management",
+      "Connecting Node.js servers to relational and NoSQL databases"
+    ],
+    "proficiency": 5
+  },
+  "Spring Boot": {
+    "displayName": "Spring Boot",
+    "category": "JAVA FRAMEWORK",
+    "icon": "springboot",
+    "description": "Enterprise Java framework for building stand-alone, production-grade Spring applications.",
+    "useCases": [
+      "Building enterprise microservices with dependency injection",
+      "Managing secure database transactions with Spring Data JPA",
+      "Exposing RESTful web APIs for multi-tiered systems"
+    ],
+    "proficiency": 4
+  },
+  "FastAPI": {
+    "displayName": "FastAPI",
+    "category": "PYTHON FRAMEWORK",
+    "icon": "fastapi",
+    "description": "High-performance Python web framework for building APIs with automatic OpenAPI docs and type hints.",
+    "useCases": [
+      "Developing high-speed asynchronous REST APIs in Python",
+      "Automatic schema validation via Pydantic models",
+      "Integrating AI model inference endpoints efficiently"
+    ],
+    "proficiency": 4
+  },
+  "REST APIs": {
+    "displayName": "REST APIs",
+    "category": "ARCHITECTURE",
+    "icon": "restapi",
+    "description": "Representational State Transfer architectural style for designing networked HTTP web services.",
+    "useCases": [
+      "Designing clean, stateless HTTP client-server interfaces",
+      "Structuring CRUD endpoints with standard HTTP status codes",
+      "Documenting API contracts with OpenAPI / Swagger"
+    ],
+    "proficiency": 5
+  },
+  "Redis": {
+    "displayName": "Redis",
+    "category": "IN-MEMORY DATA STORE",
+    "icon": "redis",
+    "description": "Ultra-fast in-memory data store used as a cache, message broker, and key-value store.",
+    "useCases": [
+      "Caching expensive database query results for fast responses",
+      "Session management and rate-limiting request queues",
+      "Real-time pub/sub notification pipelines"
+    ],
+    "proficiency": 4
+  },
+  "PostgreSQL": {
+    "displayName": "PostgreSQL",
+    "category": "RELATIONAL DATABASE",
+    "icon": "postgresql",
+    "description": "Advanced open-source relational database management system known for reliability and extensibility.",
+    "useCases": [
+      "Designing relational schemas with foreign key integrity",
+      "Writing optimized SQL queries, joins, and indexes",
+      "Managing JSONB structured data alongside relational tables"
+    ],
+    "proficiency": 4
+  },
+  "Supabase": {
+    "displayName": "Supabase",
+    "category": "BACKEND AS A SERVICE",
+    "icon": "supabase",
+    "description": "Open-source Firebase alternative providing Postgres database, Auth, Instant APIs, and Realtime subscriptions.",
+    "useCases": [
+      "Provisioning Postgres databases with row-level security (RLS)",
+      "Managing user authentication and OAuth providers",
+      "Subscribing to realtime database changes in frontend apps"
+    ],
+    "proficiency": 5
+  },
+  "MySQL": {
+    "displayName": "MySQL",
+    "category": "RELATIONAL DATABASE",
+    "icon": "mysql",
+    "description": "Widely deployed open-source relational database engine powering web applications worldwide.",
+    "useCases": [
+      "Structuring relational data for web application backends",
+      "Writing optimized SQL queries and indexing strategies",
+      "Managing database backups and schema migrations"
+    ],
+    "proficiency": 4
+  },
+  "SQLite": {
+    "displayName": "SQLite",
+    "category": "EMBEDDED DATABASE",
+    "icon": "sqlite",
+    "description": "Self-contained, serverless, zero-configuration SQL database engine embedded in applications.",
+    "useCases": [
+      "Embedded local storage for desktop and mobile apps",
+      "Fast lightweight database testing in CI/CD environments",
+      "Zero-latency file-based data persistence"
+    ],
+    "proficiency": 5
+  },
+  "Python": {
+    "displayName": "Python",
+    "category": "PROGRAMMING LANGUAGE",
+    "icon": "python",
+    "description": "Versatile programming language widely used in AI, data science, backend development, and scripting.",
+    "useCases": [
+      "Developing machine learning models and data pipelines",
+      "Building backend APIs and web application servers",
+      "Automating complex workflows and CLI utilities"
+    ],
+    "proficiency": 5
+  },
+  "Gemini API": {
+    "displayName": "Gemini API",
+    "category": "AI & LLM API",
+    "icon": "gemini",
+    "description": "Google's multimodal AI API for integrating natural language processing, vision, and reasoning capabilities.",
+    "useCases": [
+      "Building intelligent AI agents and conversational assistants",
+      "Multimodal document analysis and structured data extraction",
+      "Function calling and tool-use integration in software apps"
+    ],
+    "proficiency": 5
+  },
+  "Pandas": {
+    "displayName": "Pandas",
+    "category": "DATA ANALYSIS",
+    "icon": "pandas",
+    "description": "Fast, powerful, and easy-to-use data structures and data analysis tool built on Python.",
+    "useCases": [
+      "Cleaning, filtering, and transforming complex tabular datasets",
+      "Performing data aggregations and time-series operations",
+      "Exporting and importing CSV, Excel, and SQL datasets"
+    ],
+    "proficiency": 5
+  },
+  "NumPy": {
+    "displayName": "NumPy",
+    "category": "NUMERICAL COMPUTING",
+    "icon": "numpy",
+    "description": "Fundamental package for scientific computing with multi-dimensional array processing in Python.",
+    "useCases": [
+      "Performing vectorized matrix mathematical computations",
+      "Data transformations for machine learning pipelines",
+      "High-speed numerical array operations"
+    ],
+    "proficiency": 5
+  },
+  "scikit-learn": {
+    "displayName": "scikit-learn",
+    "category": "MACHINE LEARNING",
+    "icon": "scikitlearn",
+    "description": "Robust Python library for classical machine learning algorithms, classification, and regression.",
+    "useCases": [
+      "Data preprocessing, feature scaling, and encoding",
+      "Training regression, decision tree, and clustering models",
+      "Evaluating model accuracy with cross-validation"
+    ],
+    "proficiency": 4
+  },
+  "PyTorch": {
+    "displayName": "PyTorch",
+    "category": "DEEP LEARNING",
+    "icon": "pytorch",
+    "description": "Open-source machine learning framework for building deep neural networks and AI models.",
+    "useCases": [
+      "Designing and training custom neural network architectures",
+      "Computer vision and NLP dataset preprocessing",
+      "Exporting models for inference and evaluation"
+    ],
+    "proficiency": 4
+  },
+  "Matplotlib": {
+    "displayName": "Matplotlib",
+    "category": "DATA VISUALIZATION",
+    "icon": "matplotlib",
+    "description": "Comprehensive library for creating static, animated, and interactive visualizations in Python.",
+    "useCases": [
+      "Plotting publication-quality line charts and scatter plots",
+      "Visualizing statistical distributions and histograms",
+      "Customizing chart axes, legends, and styling themes"
+    ],
+    "proficiency": 4
+  },
+  "Seaborn": {
+    "displayName": "Seaborn",
+    "category": "STATISTICAL GRAPHICS",
+    "icon": "seaborn",
+    "description": "Python data visualization library based on Matplotlib providing high-level statistical graphics.",
+    "useCases": [
+      "Rendering correlation heatmaps and regression plots",
+      "Visualizing complex multi-variable statistical data",
+      "Applying beautiful default aesthetic themes to charts"
+    ],
+    "proficiency": 4
+  },
+  "Plotly": {
+    "displayName": "Plotly",
+    "category": "INTERACTIVE CHARTS",
+    "icon": "plotly",
+    "description": "Graphing library for making interactive, publication-quality web-based graphs and charts.",
+    "useCases": [
+      "Building interactive web dashboards with zoom and hover tooltips",
+      "Rendering 3D surface and geospatial maps",
+      "Exporting interactive HTML chart widgets"
+    ],
+    "proficiency": 4
+  },
+  "Streamlit": {
+    "displayName": "Streamlit",
+    "category": "PYTHON WEB APPS",
+    "icon": "streamlit",
+    "description": "Faster way to build and share data apps by turning Python scripts into interactive web interfaces.",
+    "useCases": [
+      "Building rapid ML model prototypes and demo apps",
+      "Creating interactive data exploration dashboards",
+      "Sharing data science tools with non-technical users"
+    ],
+    "proficiency": 5
+  },
+  "Jupyter": {
+    "displayName": "Jupyter",
+    "category": "DATA ENVIRONMENT",
+    "icon": "jupyter",
+    "description": "Web-based interactive computing environment for notebooks, code execution, and data visualization.",
+    "useCases": [
+      "Conducting exploratory data analysis and ML experiments",
+      "Documenting code execution with inline Markdown and charts",
+      "Sharing reproducible data research notebooks"
+    ],
+    "proficiency": 5
+  },
+  "Git": {
+    "displayName": "Git",
+    "category": "VERSION CONTROL",
+    "icon": "git",
+    "description": "Distributed version control system for tracking code changes, branching, and team collaboration.",
+    "useCases": [
+      "Managing feature branches, commits, and merge requests",
+      "Collaborating on open-source codebases safely",
+      "Tracking development history and code releases"
+    ],
+    "proficiency": 5
+  },
+  "GitHub": {
+    "displayName": "GitHub",
+    "category": "CODE HOSTING & CI/CD",
+    "icon": "github",
+    "description": "Development platform for hosting code repositories, managing pull requests, and automated CI/CD.",
+    "useCases": [
+      "Hosting open-source and private Git repositories",
+      "Automating tests and builds with GitHub Actions",
+      "Reviewing pull requests and managing issues"
+    ],
+    "proficiency": 5
+  },
+  "Docker": {
+    "displayName": "Docker",
+    "category": "CONTAINERIZATION",
+    "icon": "docker",
+    "description": "Platform for developing, shipping, and running applications inside lightweight containers.",
+    "useCases": [
+      "Packaging applications with all OS dependencies",
+      "Ensuring consistent dev and production environments",
+      "Orchestrating multi-container services with Docker Compose"
+    ],
+    "proficiency": 4
+  },
+  "Linux": {
+    "displayName": "Linux",
+    "category": "OPERATING SYSTEM",
+    "icon": "linux",
+    "description": "Open-source Unix-like operating system powering cloud servers and developer environments.",
+    "useCases": [
+      "Managing remote servers via SSH and bash commands",
+      "Automating deployment scripts and system services",
+      "Configuring environment variables and permissions"
+    ],
+    "proficiency": 4
+  },
+  "VS Code": {
+    "displayName": "VS Code",
+    "category": "DEVELOPER IDE",
+    "icon": "vscode",
+    "description": "Extensible code editor with rich debugging, Git integration, and language intelligence.",
+    "useCases": [
+      "Writing full-stack code with IntelliSense autocomplete",
+      "Debugging client-side and server-side applications",
+      "Managing Git workflows and project extensions"
+    ],
+    "proficiency": 5
+  },
+  "npm": {
+    "displayName": "npm",
+    "category": "PACKAGE MANAGER",
+    "icon": "npm",
+    "description": "The world's largest software registry and package manager for JavaScript dependencies.",
+    "useCases": [
+      "Managing project dependencies and lockfiles",
+      "Running package build scripts and test suites",
+      "Publishing reusable JavaScript modules to the registry"
+    ],
+    "proficiency": 5
+  },
+  "Postman": {
+    "displayName": "Postman",
+    "category": "API PLATFORM",
+    "icon": "postman",
+    "description": "API platform for building, testing, and documenting HTTP APIs with collection runners.",
+    "useCases": [
+      "Testing RESTful API endpoints and response payloads",
+      "Automating API test suites and environment variables",
+      "Documenting API endpoints for team collaboration"
+    ],
+    "proficiency": 5
+  },
+  "Figma": {
+    "displayName": "Figma",
+    "category": "DESIGN TOOL",
+    "icon": "figma",
+    "description": "Collaborative web-based interface design and prototyping tool for modern UI/UX design.",
+    "useCases": [
+      "Designing responsive UI layouts and component design systems",
+      "Creating interactive prototypes and wireframes",
+      "Exporting visual assets and design tokens for development"
+    ],
+    "proficiency": 5
+  },
+  "Vercel": {
+    "displayName": "Vercel",
+    "category": "CLOUD DEPLOYMENT",
+    "icon": "vercel",
+    "description": "Cloud platform for static sites and Serverless Functions, optimized for frontend frameworks.",
+    "useCases": [
+      "Deploying Next.js and React applications with instant previews",
+      "Automating git push deployments and SSL certificates",
+      "Leveraging global edge network CDN for fast performance"
+    ],
+    "proficiency": 5
+  },
+  "Render": {
+    "displayName": "Render",
+    "category": "CLOUD PLATFORM",
+    "icon": "render",
+    "description": "Unified cloud platform to build and run all your apps and websites with free SSL and auto-deploys.",
+    "useCases": [
+      "Deploying Python FastAPI and Node.js web services",
+      "Hosting managed PostgreSQL database instances",
+      "Configuring background workers and cron jobs"
+    ],
+    "proficiency": 4
+  },
+  "GitHub Pages": {
+    "displayName": "GitHub Pages",
+    "category": "STATIC HOSTING",
+    "icon": "githubpages",
+    "description": "Static site hosting service that takes HTML, CSS, and JS files straight from a repository.",
+    "useCases": [
+      "Hosting personal portfolio websites and project documentation",
+      "Automating deployment directly from the main Git branch",
+      "Custom domain configuration with automatic HTTPS"
+    ],
+    "proficiency": 5
+  },
+  "Java": {
+    "displayName": "Java",
+    "category": "PROGRAMMING LANGUAGE",
+    "icon": "java",
+    "description": "Class-based, object-oriented programming language designed for enterprise systems and Android.",
+    "useCases": [
+      "Building backend services with object-oriented principles",
+      "Developing data structures and algorithmic implementations",
+      "Managing memory and concurrency in multi-threaded software"
+    ],
+    "proficiency": 4
+  },
+  "SQL": {
+    "displayName": "SQL",
+    "category": "DATABASE LANGUAGE",
+    "icon": "sql",
+    "description": "Domain-specific language used to manage, query, and manipulate data in relational databases.",
+    "useCases": [
+      "Writing complex data queries with filtering and aggregations",
+      "Designing database tables, indexes, and constraints",
+      "Data migration and analytical reporting"
+    ],
+    "proficiency": 4
+  },
+  "Prisma": {
+    "displayName": "Prisma",
+    "category": "NEXT-GEN ORM",
+    "icon": "prisma",
+    "description": "Next-generation Node.js and TypeScript ORM for Postgres, MySQL, SQLite, and SQL Server.",
+    "useCases": [
+      "Defining type-safe database schemas in prisma.schema",
+      "Generating automated database migrations",
+      "Querying databases with full TypeScript auto-completion"
+    ],
+    "proficiency": 4
+  },
+  "LangGraph": {
+    "displayName": "LangGraph",
+    "category": "AGENT ORCHESTRATION",
+    "icon": "langgraph",
+    "description": "Library for building stateful, multi-actor applications with LLMs, used to create agentic workflows.",
+    "useCases": [
+      "Designing cyclic state graphs for autonomous AI agents",
+      "Managing agent memory, persistence, and human-in-the-loop steps",
+      "Orchestrating multi-agent collaboration pipelines"
+    ],
+    "proficiency": 4
+  },
+  "System Design": {
+    "displayName": "System Design",
+    "category": "ARCHITECTURE",
+    "icon": "systemdesign",
+    "description": "Designing scalable, reliable distributed systems, load balancing, caching, and database sharding.",
+    "useCases": [
+      "Architecting microservices for high availability",
+      "Designing caching strategies and message queues",
+      "Evaluating trade-offs in CAP theorem and database scaling"
+    ],
+    "proficiency": 4
+  },
+  "Advanced AI Agents": {
+    "displayName": "Advanced AI Agents",
+    "category": "EMERGING TECH",
+    "icon": "aiagents",
+    "description": "Building autonomous AI agents equipped with tool use, vector memory, planning, and self-reflection.",
+    "useCases": [
+      "Developing autonomous coding and research agents",
+      "Integrating RAG vector search with tool-calling LLMs",
+      "Building multi-agent task execution frameworks"
+    ],
+    "proficiency": 4
+  }
+}

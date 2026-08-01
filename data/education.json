@@ -1,0 +1,39 @@
+{
+  "eyebrowNum": "02",
+  "eyebrowLabel": "EDUCATION",
+  "title": "Education",
+  "programTitle": "Dual Degree Program",
+  "degrees": "B.Sc. Computer and Data Science <span class=\"education-card__accent-x\">x</span> B.C.S Software Engineering",
+  "institutions": "Siam University, Thailand x La Trobe University, Australia",
+  "dates": "2024–PRESENT",
+  "logos": [
+    {
+      "src": "assets/img/global-academy-logo.png",
+      "alt": "Global Academy Logo",
+      "label": "GLOBAL ACADEMY"
+    },
+    {
+      "src": "assets/img/latrobe-logo.png",
+      "alt": "La Trobe University Logo",
+      "label": "LA TROBE"
+    }
+  ],
+  "details": {
+    "awards": [
+      "Academic Excellence Award",
+      "4.00 Scholar Certificate of Recognition",
+      "CGPA: <span class=\"education-highlight\">3.88 / 4.00</span>"
+    ],
+    "leadership": {
+      "title": "Leadership",
+      "subtitle": "Student Representative",
+      "highlights": [
+        "Represented students between faculty and classmates.",
+        "Helped organize academic and student activities."
+      ]
+    },
+    "sportsAchievements": [
+      "<span class=\"medal-emoji\" aria-hidden=\"true\">🥉</span> 2x Bronze Medalist – Table Tennis"
+    ]
+  }
+}
